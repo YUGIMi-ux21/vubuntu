@@ -14,7 +14,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 #NoVNC Port
 	NOVNC_PORT=$PORT \
 #Ngrok Token (It's advisable to use your personal token, else it may clash with other users & your tunnel may get terminated)
-	NGROK_TOKEN="1tNm3GUFYV1A4lQFXF1bjFvnCvM_4DjiFRiXKGHDaTGBJH8VM" \
+	NGROK_TOKEN="1uXLyNPFdcvY42EwcotXU8KrGmI_2QNFLMpovPKNiVXa6Xi7v" \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
