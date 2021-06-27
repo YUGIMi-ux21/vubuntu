@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Ubuntu_Desktop" \
 #VNC Resolution(720p is preferable)
-	VNC_RESOLUTION="1280x720" \
+	VNC_RESOLUTION="1280x600" \
 #Local Display Server Port
 	DISPLAY=:0 \
 #NoVNC Port
@@ -76,11 +76,11 @@ RUN rm -rf /etc/apt/sources.list && \
 	openvpn \
 	ffmpeg \
 #Fluxbox
-	/app/fluxbox-heroku-mod.deb && \
+	#/app/fluxbox-heroku-mod.deb && \
 #MATE Desktop
-	#apt install -y \ 
-	#ubuntu-mate-core \
-	#ubuntu-mate-desktop && \
+	apt install -y \ 
+	ubuntu-mate-core \
+	ubuntu-mate-desktop && \
 #XFCE Desktop
 	#apt install -y \
 	#xubuntu-desktop && \
